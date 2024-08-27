@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+  }
+  header {
+    display: flex;
+    color: #FEC1CB;
+    font-weight: bold;
+    font-size: large;
+    justify-content: space-around;
+  }
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  nav a {
+    text-decoration: none;
+    color: #FEC1CB;
+    font-weight: bold;
+    font-size: large;
+  
+  }
+  .p-link {
+  }
+  
+  .link-button {
+    text-decoration: none;
+    color: black;
+    border-radius: .5rem;
+    
+    
+  }
+  /* a tags are "inline" meaning, they take up the space of the content. Padding and margin work differently with inline elements. they only apply - padding and margin to the right and left- */
+  .yellow-link a{
+   background-color: #FED32F;
+    padding: 16px;
+    display: block;
+    width: 20rem;
+    margin-bottom: 1.5rem;
+  }
+  .yellow-link p{
+    margin: auto;
+    padding: 10px;
+    border-radius: .5rem;
+  }
+  .yellow-link {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  
+  }
+  button {
+    background-color: #FED32F;
+    color: black;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    border-radius: .5rem;
+    width: 17rem;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    font-size: large;
+  }
+  .photo {
+    display:flex;
+    justify-content: center;
+  }
+  .sacre {
+height: 45rem;
+width: auto;
+margin-top: 5rem;
+  }
+
+  @media (max-width: 600px) {
+
+  }
